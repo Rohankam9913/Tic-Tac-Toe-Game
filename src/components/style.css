@@ -1,0 +1,56 @@
+*{
+    background-color: #232323;
+    color: white;
+}
+
+.main{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.board{
+   display: flex;
+   justify-content: center;
+}
+
+.square{
+    background-color: white;
+    font-weight: bold;
+    height: 180px;
+    width: 180px;
+    font-size: 60px;
+    border: 0.7px solid #131313;
+    color: black;
+}
+
+.text{
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.winner{
+    color: #4bb543;
+}
+
+.draw{
+    color: tomato;
+}
+
+.btn{
+    border: none;
+    margin-top: 20px;
+    background-color: white;
+    color: #121212;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(203, 207, 211);
+}
